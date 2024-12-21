@@ -15,6 +15,8 @@ Web Reader supports the following feed formats:
 
 Only posts published in the last two days will be displayed in the feed reader.
 
+This is the predecessor to [Artemis](https://artemis.jamesg.blog), a calm hosted web reader.
+
 ## Installation
 
 First, clone this repository and install the required dependencies:
