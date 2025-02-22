@@ -96,6 +96,7 @@ def poll_feed(feed):
 
         item["domain"] = urlparse(item.get("url")).netloc
         item["layout"] = "feed"
+        item["slug"] = item["domain"]
 
         try:
             item["date_published"] = parser.parse(item.get("date_published", None)).strftime("%Y-%m-%d")
