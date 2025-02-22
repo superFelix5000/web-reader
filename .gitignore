@@ -1,2 +1,4 @@
 /my-venv
 =4.9.3
+__pycache__
+_site
